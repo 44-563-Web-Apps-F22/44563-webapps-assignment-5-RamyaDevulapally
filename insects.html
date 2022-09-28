@@ -1,40 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Insects assignment</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"   
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" 
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
 </head>
-<body>
-<h1>Insects by Ramya Devulapally</h1>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-2">D</div>
-    <div class="col-sm-2">E</div>
-    <div class="col-sm-2">V</div>
-    <div class="col-sm-2">U</div>
-    <div class="col-sm-2">L</div>
-    <div class="col-sm-2">A</div>
-  </div>
-  <div class="row">
-    <div class="col-md">Dragonflies</div>
-    <div class="col-md">Earthworm</div>
-    <div class="col-md">Velvet mites</div>
-    <div class="col-md">Underwing</div>
-    <div class="col-md">Lady beetles</div>
-    <div class="col-md">Ant</div>
-  </div>
-</div>
-<p>
-  As we applied some bootstrap code the rows are changing there alignment according to the chrome page size adjustment.
-</p>
 
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#InsectNavbarContent"
+      aria-controls="InsectNavbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggle-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="InsectNavbarContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="insects.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="basic.html">Basic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="advanced.html">Advanced</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <h1>Insects by Ramya Devulapally</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">D</div>
+      <div class="col-sm-2">E</div>
+      <div class="col-sm-2">V</div>
+      <div class="col-sm-2">U</div>
+      <div class="col-sm-2">L</div>
+      <div class="col-sm-2">A</div>
+    </div>
+    <div class="row">
+      <div class="col-md">Dragonflies</div>
+      <div class="col-md">Earthworm</div>
+      <div class="col-md">Velvet mites</div>
+      <div class="col-md">Underwing</div>
+      <div class="col-md">Lady beetles</div>
+      <div class="col-md">Ant</div>
+    </div>
+  </div>
+  <p>
+    As we applied some bootstrap code the rows are changing there alignment according to the chrome page size
+    adjustment.
+  </p>
+  <div class="container">
+    <img class="img-fluid" src="ant.jpg" alt="Ant" width="200">
+    <img class="img-fluid" src="Underwing.jpg" alt="Underwing" width="200">
+    <img class="img-fluid" src="velvetmites.jpg" alt="Velvetmites" width="250">
+  </div>
+  <br><br>
+  <div class="container">
+    <img class="img-thumbnail" src="ant.jpg" alt="Ant" width="200">
+    <img class="img-thumbnail" src="Underwing.jpg" alt="Underwing" width="200">
+    <img class="img-thumbnail" src="velvetmites.jpg" alt="Velvetmites" width="250">
+  </div>
+  <br>
+  <div class="container">
+    <table class="table table-dark table-striped table-info table-striped table-hover table-responsive"
+      style="text-align: center;">
+      <caption style="color:black">Table consists of Insects, City, River and Start Letters</caption>
+      <thead class="table-info">
+        <tr style="color:red;">
+          <th scope="col">Letter</th>
+          <th scope="col">Insect</th>
+          <th scope="col">City</th>
+          <th scope="col">River</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>D</td>
+          <td>Dragonflies</td>
+          <td>Denver</td>
+          <td>Dan River</td>
+        </tr>
+        <tr>
+          <td>E</td>
+          <td>Earthworm</td>
+          <td>East Honolulu</td>
+          <td>Eagle Hill River</td>
+        </tr>
+        <tr>
+          <td>V</td>
+          <td>Velvet mites</td>
+          <td>Virginia Beach</td>
+          <td>Van Duzen River</td>
+        </tr>
+        <tr>
+          <td>U</td>
+          <td>Underwing</td>
+          <td>Uvalde</td>
+          <td>Umatilla</td>
+        </tr>
+        <tr>
+          <td>L</td>
+          <td>Lady beetles</td>
+          <td>Las Vegas</td>
+          <td>La Moine River</td>
+        </tr>
+        <tr>
+          <td>A</td>
+          <td>Ant</td>
+          <td>Austin</td>
+          <td>Alabama River</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <div class="container btn-toolbar">
+      <div class="btn-group" role="group" aria-label="Imaged Insects">
+        <button class="btn btn-md btn-success" type="button">D</button>
+        <button class="btn btn-md btn-success" type="button">E</button>
+        <button class="btn btn-md btn-success" type="button">V</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Lettered Insects">
+        <button class="btn btn-md btn-warning" type="button">U</button>
+        <button class="btn btn-md btn-warning" type="button">L</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Remained Lettered Insects">
+        <button class="btn btn-md btn-danger" type="button">A</button>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" type="button">
+          Menu
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="basic.html">Basic</a>
+          <a class="dropdown-item" href="advanced.html">Advanced</a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <form action="">
+        <div class="form-group">
+          <label for="InsectEmail" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="InsectEmail" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="form-group">
+          <label for="InsectInput" class="form-label">Insect</label>
+          <input type="text" class="form-control" id="InsectInput" placeholder="Enter Your Insect">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="InsectCheck">
+          <label class="form-check-label" for="InsectCheck">Sign up for newsletter?</label>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+    </div>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <div class="card" style="width: 19rem;">
+            <img src="ant.jpg" class="card-img-top" alt="Ant">
+            <div class="card-body">
+              <h5 class="card-title">Ant</h5>
+              <p class="card-text">
+                Ants have colonised almost every landmass on Earth. The only places lacking indigenous ants are
+                Antarctica and a few remote or inhospitable islands. Ants thrive in most ecosystems and may form 15–25%
+                of the terrestrial animal biomass. Their success in so many environments has been attributed to their
+                social organisation and their ability to modify habitats, tap resources, and defend themselves.
+              </p>
+              <a href="https://en.wikipedia.org/wiki/Ant" class="btn btn-primary">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card" style="width: 19rem;">
+            <img src="Underwing.jpg" class="card-img-top" alt="Underwing">
+            <div class="card-body">
+              <h5 class="card-title">Underwing</h5>
+              <p class="card-text">
+                A member of the genus Catocala, a nocturnal moth which usually has brightly coloured underwings.
+              </p>
+              <a href="https://en.wiktionary.org/wiki/underwing" class="btn btn-primary">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card" style="width: 19rem;">
+            <img src="velvetmites.jpg" class="card-img-top" alt="Velvetmites">
+            <div class="card-body">
+              <h5 class="card-title">Velvetmites</h5>
+              <p class="card-text">
+                When I was a kid, I'd see these tiny red things crawling in the dirt and wonder, "What the hell are
+                those things?" – but never investigated further. Now I know they are red velvet mites, with eight legs
+                and chelicerae like spiders. These specimens are less than 1/8" long including legs.
+                Red velvet mites do not bite or sting. Red velvet mites are extremely important to the environment.
+                These mites are part of a community of soil arthropods that is critical in terms of rates of
+                decomposition in woodlands and in maintaining the structure of the entire ecosystem. By feeding on
+                insects that eat fungi and bacteria, they stimulate the decomposition process.
+              </p>
+              <a href="https://www.cirrusimage.com/arachnid_velvet_mite/" class="btn btn-primary">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
 </body>
+
 </html>
